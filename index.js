@@ -15,10 +15,10 @@ function initMap() {
   const geocoder = new google.maps.Geocoder();
   const service = new google.maps.DistanceMatrixService();
   // build request
-  const origin1 = { lat: 55.93, lng: -3.118 };
-  const origin2 = "Greenwich, England";
-  const destinationA = "Stockholm, Sweden";
-  const destinationB = { lat: 50.087, lng: 14.421 };
+  const origin1 = "yemen, aden";
+ const origin2 =  "yemen, الضالع";
+ const destinationA = "yemen, الضالع";
+  const destinationB =  "yemen, aden";
   const request = {
     origins: [origin1, origin2],
     destinations: [destinationA, destinationB],
